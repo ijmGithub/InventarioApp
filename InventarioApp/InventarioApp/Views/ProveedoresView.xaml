@@ -1,0 +1,14 @@
+<UserControl x:Class="InventarioApp.Views.ProveedoresView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Grid>
+		<DataGrid ItemsSource="{Binding Proveedores}" AutoGenerateColumns="False">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="ID" Binding="{Binding id}" />
+				<DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" />
+				<DataGridTextColumn Header="Teléfono" Binding="{Binding telefono}" />
+				<DataGridTextColumn Header="Email" Binding="{Binding email}" />
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
+</UserControl>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="InventarioApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:InventarioApp.Views"
+        xmlns:vm="clr-namespace:InventarioApp.ViewModels"
+        Title="Gestión de Inventario" Height="450" Width="800">
+    <Window.Resources>
+        <!-- DataTemplates para enlazar ViewModels con sus vistas -->
+        <DataTemplate DataType="{x:Type vm:ProductosViewModel}">
+            <views:ProductosView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CategoriasViewModel}">
+            <views:CategoriasView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ProveedoresViewModel}">
+            <views:ProveedoresView />
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- Menú de navegación -->
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Productos" Command="{Binding NavigateCommand}" CommandParameter="Productos" />
+            <MenuItem Header="Categorías" Command="{Binding NavigateCommand}" CommandParameter="Categorias" />
+            <MenuItem Header="Proveedores" Command="{Binding NavigateCommand}" CommandParameter="Proveedores" />
+        </Menu>
+
+        <!-- Contenido dinámico -->
+        <ContentControl Content="{Binding CurrentViewModel}" />
+    </DockPanel>
+</Window>

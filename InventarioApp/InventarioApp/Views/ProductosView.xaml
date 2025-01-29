@@ -1,0 +1,14 @@
+<UserControl x:Class="InventarioApp.Views.ProductosView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <DataGrid ItemsSource="{Binding Productos}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding id}" />
+                <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" />
+                <DataGridTextColumn Header="Precio" Binding="{Binding precio}" />
+                <DataGridTextColumn Header="Cantidad" Binding="{Binding cantidad}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
