@@ -4,7 +4,7 @@
 Este es un ejemplo de cómo agregar imágenes en Markdown.
 
 ## Imagen desde una URL
-![Logo de GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Logo de GitHub]([https://github.com/ijmGithub/InventarioApp/tree/develop/InventarioApp/doc/diagramaClases.png])
 
 ## Imagen desde el Repositorio
 ![Mi Imagen](assets/mi-imagen.png)
