@@ -52,7 +52,7 @@ namespace InventarioApp.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InventarioApp;V1.0.0.0;component/views/proveedoresview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InventarioApp;component/views/proveedoresview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ProveedoresView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

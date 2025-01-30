@@ -142,3 +142,7 @@ C:\projects\InventarioApp\InventarioApp\obj\Debug\net8.0-windows\Views\Proveedor
 C:\projects\InventarioApp\InventarioApp\obj\Debug\net8.0-windows\Views\ProveedoresView.g.cs
 C:\projects\InventarioApp\InventarioApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\projects\InventarioApp\InventarioApp\obj\Debug\net8.0-windows\InventarioApp_MarkupCompile.lref
+C:\projects\InventarioApp\InventarioApp\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+C:\projects\InventarioApp\InventarioApp\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\projects\InventarioApp\InventarioApp\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\projects\InventarioApp\InventarioApp\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
