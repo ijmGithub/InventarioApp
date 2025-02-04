@@ -1,74 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projects\\InventarioApp\\",
+  "WorkspaceRootPath": "C:\\projects\\git\\InventarioApp\\InventarioApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\viewmodels\\categoriasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\viewmodels\\categoriasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\proveedoresview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\proveedoresview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\productosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\git\\inventarioapp\\inventarioapp\\inventarioapp\\views\\productosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\productosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\categoriasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\categoriasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\categoriasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\categoriasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\viewmodels\\productosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\git\\inventarioapp\\inventarioapp\\inventarioapp\\viewmodels\\productosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\viewmodels\\productosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\productosview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\productosview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\proveedoresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\proveedoresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\inventarioapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\inventarioapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\proveedoresview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\proveedoresview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|c:\\projects\\inventarioapp\\inventarioapp\\views\\categoriasview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{80A9EF8A-3812-40E9-BA0D-D06E6E3C9800}|InventarioApp\\InventarioApp.csproj|solutionrelative:inventarioapp\\views\\categoriasview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,218 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "InventarioApp\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T02:23:23.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProveedoresView.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProveedoresView.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml",
-              "RelativeToolTip": "InventarioApp\\Views\\ProveedoresView.xaml",
+              "Title": "ProductosView.xaml",
+              "DocumentMoniker": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml",
+              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProductosView.xaml",
+              "ToolTip": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml",
+              "RelativeToolTip": "InventarioApp\\Views\\ProductosView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T05:11:37.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriasView.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\CategoriasView.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml",
-              "RelativeToolTip": "InventarioApp\\Views\\CategoriasView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T02:11:27.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProveedoresView.xaml.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProveedoresView.xaml.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml.cs",
-              "RelativeToolTip": "InventarioApp\\Views\\ProveedoresView.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T03:31:24.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\MainWindow.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\MainWindow.xaml",
-              "RelativeToolTip": "InventarioApp\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T02:10:23.485Z",
+              "WhenOpened": "2025-02-03T09:35:17.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "InventarioApp\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:07:13.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "InventarioApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T02:10:20.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ProductosViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\ProductosViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\ViewModels\\ProductosViewModel.cs",
               "RelativeDocumentMoniker": "InventarioApp\\ViewModels\\ProductosViewModel.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\ProductosViewModel.cs",
+              "ToolTip": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\ViewModels\\ProductosViewModel.cs",
               "RelativeToolTip": "InventarioApp\\ViewModels\\ProductosViewModel.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAD4v3QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T04:59:02.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriasViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\CategoriasViewModel.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\ViewModels\\CategoriasViewModel.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\CategoriasViewModel.cs",
-              "RelativeToolTip": "InventarioApp\\ViewModels\\CategoriasViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:06:41.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductosView.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProductosView.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml",
-              "RelativeToolTip": "InventarioApp\\Views\\ProductosView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T05:11:39.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriasView.xaml.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\CategoriasView.xaml.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml.cs",
-              "RelativeToolTip": "InventarioApp\\Views\\CategoriasView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T03:29:32.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductosView.xaml.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProductosView.xaml.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProductosView.xaml.cs",
-              "RelativeToolTip": "InventarioApp\\Views\\ProductosView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T03:30:32.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\ViewModels\\RelayCommand.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\ViewModels\\RelayCommand.cs",
-              "RelativeToolTip": "InventarioApp\\ViewModels\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:08:17.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "InventarioApp\\App.xaml.cs",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\App.xaml.cs",
-              "RelativeToolTip": "InventarioApp\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:09:21.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InventarioApp",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
-              "RelativeDocumentMoniker": "InventarioApp\\InventarioApp.csproj",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
-              "RelativeToolTip": "InventarioApp\\InventarioApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-27T02:08:45.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProveedoresView.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\ProveedoresView.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\ProveedoresView.xaml",
-              "RelativeToolTip": "InventarioApp\\Views\\ProveedoresView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T02:08:33.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoriasView.xaml",
-              "DocumentMoniker": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml",
-              "RelativeDocumentMoniker": "InventarioApp\\Views\\CategoriasView.xaml",
-              "ToolTip": "C:\\projects\\InventarioApp\\InventarioApp\\Views\\CategoriasView.xaml",
-              "RelativeToolTip": "InventarioApp\\Views\\CategoriasView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T02:08:14.002Z",
+              "WhenOpened": "2025-02-03T09:35:15.154Z",
               "EditorCaption": ""
             }
           ]

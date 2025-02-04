@@ -25,6 +25,7 @@ namespace InventarioApp.ViewModels
             _context = context; // Recibe el contexto directamente
             NavigateCommand = new RelayCommand(Navigate);
             CurrentViewModel = new ProductosViewModel(_context); // Vista predeterminada
+            OnPropertyChanged(nameof(CurrentViewModel)); // 🔹 Notificar cambio
         }
 
         private void Navigate(object parameter)

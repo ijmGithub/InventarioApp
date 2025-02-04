@@ -4,15 +4,32 @@
     <Grid>
         <StackPanel Orientation="Vertical">
 
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBlock Text="Categoria:" VerticalAlignment="Center" Margin="5"/>
+                <ComboBox ItemsSource="{Binding Categorias}"
+                          SelectedItem="{Binding CategoriaSeleccionada}"
+                          DisplayMemberPath="nombre"
+                          Width="150" Margin="5"/>
+
+                <TextBlock Text="Proveedor:" VerticalAlignment="Center" Margin="5"/>
+                <ComboBox ItemsSource="{Binding Proveedores}"
+                          SelectedItem="{Binding ProveedorSeleccionado}"
+                          DisplayMemberPath="nombre"
+                          Width="150" Margin="5"/>
+            </StackPanel>
+
             <!-- DataGrid para mostrar los productos -->
             <DataGrid ItemsSource="{Binding Productos}" 
                       SelectedItem="{Binding ProductoSeleccionado}" 
-                      AutoGenerateColumns="False">
+                      AutoGenerateColumns="False"
+                      Margin="10">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding id}" IsReadOnly="True"/>
                     <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" />
-                    <DataGridTextColumn Header="Precio" Binding="{Binding precio}" />
+                    <DataGridTextColumn Header="Precio" Binding="{Binding precio, StringFormat=C}" />
                     <DataGridTextColumn Header="Cantidad" Binding="{Binding cantidad}" />
+                    <DataGridTextColumn Header="Categoria" Binding="{Binding Categoria.nombre}" />
+                    <DataGridTextColumn Header="Proveedor" Binding="{Binding Proveedor.nombre}" />
                 </DataGrid.Columns>
             </DataGrid>
 

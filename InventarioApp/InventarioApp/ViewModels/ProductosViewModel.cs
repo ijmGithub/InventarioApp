@@ -17,7 +17,29 @@ namespace InventarioApp.ViewModels
             set
             {
                 _productos = value;
-                OnPropertyChanged(); // Notifica el cambio a la vista
+                OnPropertyChanged(nameof(Productos)); // Forzar actualización en UI
+            }
+        }
+
+        private ObservableCollection<Categoria> _categorias;
+        public ObservableCollection<Categoria> Categorias
+        {
+            get => _categorias;
+            set
+            {
+                _categorias = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private ObservableCollection<Proveedor> _proveedores;
+        public ObservableCollection<Proveedor> Proveedores
+        {
+            get => _proveedores;
+            set
+            {
+                _proveedores = value;
+                OnPropertyChanged();
             }
         }
 
@@ -28,6 +50,29 @@ namespace InventarioApp.ViewModels
             set
             {
                 _productoSeleccionado = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private Categoria _categoriaSeleccionada;
+        public Categoria CategoriaSeleccionada
+        {
+            get => _categoriaSeleccionada;
+            set
+            {
+                _categoriaSeleccionada = value;
+                OnPropertyChanged();
+            }
+        }
+
+
+        private Proveedor _proveedorSeleccionado;
+        public Proveedor ProveedorSeleccionado
+        {
+            get => _proveedorSeleccionado;
+            set
+            {
+                _proveedorSeleccionado = value;
                 OnPropertyChanged();
             }
         }
@@ -43,41 +88,56 @@ namespace InventarioApp.ViewModels
         {
             _context = context; // Asigna el contexto inyectado
             LoadProductos(); // Cargar los productos desde la base de datos
+            LoadCategoriasYProveedores();
 
             // Comandos CRUD
-            AgregarProductoCommand = new RelayCommand(AgregarProducto);
+            AgregarProductoCommand = new RelayCommand(AgregarProducto, CanExecuteAgregar);
             ActualizarProductoCommand = new RelayCommand(ActualizarProducto, CanExecuteActualizarOEliminar);
             EliminarProductoCommand = new RelayCommand(EliminarProducto, CanExecuteActualizarOEliminar);
             GuardarCambiosCommand = new RelayCommand(GuardarCambios);
         }
 
-        // Método para cargar productos de la base de datos
+        // 🔹 Cargar productos con Categoría y Proveedor
         private void LoadProductos()
         {
             var productos = _context.Productos
-                .Include(p => p.Categoria) // Incluye la relación con Categoría
-                .Include(p => p.Proveedor) // Incluye la relación con Proveedor
+                .Include(p => p.Categoria)
+                .Include(p => p.Proveedor)
                 .ToList();
 
-            // Verificar si los datos se están cargando
-            foreach (var producto in productos)
-            {
-                Console.WriteLine($"Producto: {producto.nombre}, Precio: {producto.precio}");
-            }
-
             Productos = new ObservableCollection<Producto>(productos);
+            OnPropertyChanged(nameof(Productos)); // 🔹 Notificar cambios a la UI
         }
 
-        // Agregar un nuevo producto
+        // 🔹 Cargar Categorías y Proveedores
+        private void LoadCategoriasYProveedores()
+        {
+            Categorias = new ObservableCollection<Categoria>(_context.Categorias.ToList());
+            Proveedores = new ObservableCollection<Proveedor>(_context.Proveedores.ToList());
+
+            // 🔹 Notificar cambios a la UI
+            OnPropertyChanged(nameof(Categorias));
+            OnPropertyChanged(nameof(Proveedores));
+        }
+        
+        // 🔹 Agregar un nuevo producto
         private void AgregarProducto(object parameter)
         {
+            if (CategoriaSeleccionada == null || ProveedorSeleccionado == null)
+            {
+                System.Windows.MessageBox.Show("Seleccione una categoría y un proveedor.");
+                return;
+            }
+
             var nuevoProducto = new Producto
             {
                 nombre = "Nuevo Producto",
                 precio = 0,
                 cantidad = 0,
-                categoriaid = 1, // Debe asignarse una categoría válida
-                proveedorid = 1  // Debe asignarse un proveedor válido
+                categoriaid = CategoriaSeleccionada.id,
+                proveedorid = ProveedorSeleccionado.id,
+                Categoria = CategoriaSeleccionada,
+                Proveedor = ProveedorSeleccionado
             };
 
             _context.Productos.Add(nuevoProducto);
@@ -85,7 +145,7 @@ namespace InventarioApp.ViewModels
             Productos.Add(nuevoProducto);
         }
 
-        // Actualizar un producto existente
+        // 🔹 Actualizar un producto existente
         private void ActualizarProducto(object parameter)
         {
             if (ProductoSeleccionado != null)
@@ -96,7 +156,7 @@ namespace InventarioApp.ViewModels
             }
         }
 
-        // Eliminar un producto seleccionado
+        // 🔹 Eliminar un producto seleccionado
         private void EliminarProducto(object parameter)
         {
             if (ProductoSeleccionado != null)
@@ -107,17 +167,23 @@ namespace InventarioApp.ViewModels
             }
         }
 
-        // Guardar cambios en la base de datos
+        // 🔹 Guardar cambios en la base de datos
         private void GuardarCambios(object parameter)
         {
             _context.SaveChanges();
             LoadProductos();
         }
 
-        // Verifica si se puede actualizar o eliminar un producto
+        // 🔹 Verifica si se puede actualizar o eliminar un producto
         private bool CanExecuteActualizarOEliminar(object parameter)
         {
             return ProductoSeleccionado != null;
+        }
+
+        // 🔹 Verifica si se puede agregar un producto
+        private bool CanExecuteAgregar(object parameter)
+        {
+            return CategoriaSeleccionada != null && ProveedorSeleccionado != null;
         }
     }
 }

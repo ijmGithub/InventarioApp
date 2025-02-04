@@ -13,7 +13,18 @@ namespace InventarioApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Asegurar que los nombres de las tablas coincidan con PostgreSQL (en minúsculas)
+            // Definir relaciones
+            modelBuilder.Entity<Producto>()
+                .HasOne(p => p.Categoria)
+                .WithMany(c => c.Productos)
+                .HasForeignKey(p => p.categoriaid);
+
+            modelBuilder.Entity<Producto>()
+                .HasOne(p => p.Proveedor)
+                .WithMany(prov => prov.Productos)
+                .HasForeignKey(p => p.proveedorid);
+
+            // Mapear nombres de tablas a PostgreSQL en minúsculas
             modelBuilder.Entity<Producto>().ToTable("productos");
             modelBuilder.Entity<Categoria>().ToTable("categorias");
             modelBuilder.Entity<Proveedor>().ToTable("proveedores");

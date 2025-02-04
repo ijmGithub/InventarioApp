@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj": {}
+    "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\InventarioApp.csproj": {}
   },
   "projects": {
-    "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj": {
+    "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\InventarioApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
+        "projectUniqueName": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
         "projectName": "InventarioApp",
-        "projectPath": "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
+        "projectPath": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
         "packagesPath": "C:\\Users\\ijm\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\InventarioApp\\InventarioApp\\obj\\",
+        "outputPath": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

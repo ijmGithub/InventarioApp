@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cZ38MgjcxgE=",
+  "dgSpecHash": "r+fhzDM/oBE=",
   "success": true,
-  "projectFilePath": "C:\\projects\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
+  "projectFilePath": "C:\\projects\\git\\InventarioApp\\InventarioApp\\InventarioApp\\InventarioApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ijm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ijm\\.nuget\\packages\\itext\\9.0.0\\itext.9.0.0.nupkg.sha512",
